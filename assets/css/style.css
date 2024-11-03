@@ -13,6 +13,13 @@ body {
   font-size: 1rem;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -80,6 +87,13 @@ header p {
   color: black;
   background-color: hsl(75, 94%, 57%);
   cursor: pointer;
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  color: white;
+  transform: translateY(-2rem);
 }
 
 @media (max-width: 720px) {
